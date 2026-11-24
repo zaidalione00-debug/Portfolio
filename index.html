@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f2eb">
+    <meta name="description" content="A software engineering student's portfolio of studies, work in progress, and professional development.">
+    <title>Software Engineering Portfolio | Your Name</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="Your Name, home">
+          <span>Your Name<span class="brand-dot">.</span></span>
+          <span class="brand-role">SOFTWARE ENGINEERING / PORTFOLIO</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="menu-icon" aria-hidden="true"></span>
+        </button>
+        <nav class="primary-navigation" id="primary-navigation" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#contact" class="nav-contact">Contact <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+        <div class="hero-grid container">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow">PORTFOLIO / 2026</p>
+            <h1 id="hero-title">Software engineering<br>student, learning<br>by <em>building.</em></h1>
+            <p class="hero-description">I'm <strong>[Your Name]</strong>. This is a record of what I'm studying, making, and learning along the way.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">Selected work <span aria-hidden="true">↓</span></a>
+              <a class="button button-quiet" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="hero-meta">
+              <span>[City, Country]</span>
+              <span>[Availability / opportunity preference]</span>
+            </div>
+          </div>
+          <div class="hero-visual" data-reveal>
+            <p class="folio-mark" aria-hidden="true">SE<span>01</span></p>
+            <dl class="hero-index">
+              <div><dt>Currently</dt><dd>Studying Software Engineering</dd></div>
+              <div><dt>At</dt><dd>[University / Institution]</dd></div>
+              <div><dt>Interested in</dt><dd>[Area of interest]</dd></div>
+            </dl>
+            <p class="hero-caption">A working portfolio<br><span>Updated as I learn.</span></p>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#about">Scroll to explore <span aria-hidden="true">↓</span></a>
+      </section>
+
+      <section class="section section-about" id="about" aria-labelledby="about-title">
+        <div class="container about-grid">
+          <div data-reveal>
+            <p class="eyebrow">01 — ABOUT</p>
+            <h2 class="section-title" id="about-title">A little about<br><em>how I work.</em></h2>
+          </div>
+          <div class="about-copy" data-reveal>
+            <p class="lead">I'm pursuing a degree in Software Engineering at <span class="placeholder">[University / Institution]</span>.</p>
+            <p>[Add a brief, accurate introduction to your interests, the problems you enjoy exploring, and what you are learning now.]</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-objective" id="career-objective" aria-labelledby="objective-title">
+        <div class="container objective-grid" data-reveal>
+          <div><p class="eyebrow">02 — DIRECTION</p><h2 class="section-title" id="objective-title">Career objective</h2></div>
+          <div class="objective-copy">
+            <span class="objective-index" aria-hidden="true">↳</span>
+            <p>To develop my skills in <span class="placeholder">[area of interest]</span> and contribute to software projects while continuing to grow as an engineer.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-education" id="education" aria-labelledby="education-title">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <div><p class="eyebrow">03 — STUDY</p><h2 class="section-title" id="education-title">Education</h2></div>
+            <p class="section-note">Current course of study.</p>
+          </div>
+          <article class="education-card" data-reveal>
+            <div class="education-icon" aria-hidden="true">01</div>
+            <div class="education-details">
+              <p class="eyebrow">DEGREE PROGRAM</p>
+              <h3>Bachelor's Degree in Software Engineering</h3>
+              <p class="muted">[University / Institution] <span class="separator">·</span> [City, Country]</p>
+              <p class="muted">Expected graduation: [Year] <span class="separator">·</span> Current status: [Year / semester]</p>
+            </div>
+            <span class="pill">IN PROGRESS</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-skills" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <div><p class="eyebrow">04 — TOOLKIT</p><h2 class="section-title" id="skills-title">Technical skills</h2></div>
+            <p class="section-note">Tools and concepts I can discuss with confidence.</p>
+          </div>
+          <dl class="skills-list">
+            <div><dt>Programming languages</dt><dd>[Add languages and proficiency level]</dd></div>
+            <div><dt>Web development</dt><dd>[Add frameworks, markup, and styling tools]</dd></div>
+            <div><dt>Tools & platforms</dt><dd>[Add version control, IDEs, and platforms]</dd></div>
+            <div><dt>Core concepts</dt><dd>[Add concepts studied or practiced]</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section section-projects" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <div><p class="eyebrow">05 — SELECTED WORK</p><h2 class="section-title" id="projects-title">Projects</h2></div>
+            <p class="section-note">A selection of coursework and personal work. Replace each placeholder with a real project.</p>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card" data-reveal>
+              <figure class="project-preview preview-one"><span class="preview-index">01</span><span class="preview-label">PROJECT SCREENSHOT</span><figcaption>Add a real screenshot<br><small>Suggested crop · 1200 × 760</small></figcaption></figure>
+              <div class="project-body"><div class="project-meta"><span class="eyebrow">[CATEGORY]</span><span class="pill pill-progress">[STATUS]</span></div><h3>[Project title]</h3><p>[Briefly describe the problem, your contribution, and what you learned. Avoid claiming results you haven't measured.]</p><div class="project-tags"><span>[Technology]</span><span>[Technology]</span><span>[Role]</span></div><a class="text-link" href="#case-studies">View case study <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="project-card" data-reveal>
+              <figure class="project-preview preview-two"><span class="preview-index">02</span><span class="preview-label">PROJECT SCREENSHOT</span><figcaption>Add a real screenshot<br><small>Suggested crop · 1200 × 760</small></figcaption></figure>
+              <div class="project-body"><div class="project-meta"><span class="eyebrow">[CATEGORY]</span><span class="pill pill-progress">[STATUS]</span></div><h3>[Project title]</h3><p>[Briefly describe the problem, your contribution, and what you learned. Avoid claiming results you haven't measured.]</p><div class="project-tags"><span>[Technology]</span><span>[Technology]</span><span>[Role]</span></div><a class="text-link" href="#case-studies">View case study <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="project-card" data-reveal>
+              <figure class="project-preview preview-three"><span class="preview-index">03</span><span class="preview-label">PROJECT SCREENSHOT</span><figcaption>Add a real screenshot<br><small>Suggested crop · 1200 × 760</small></figcaption></figure>
+              <div class="project-body"><div class="project-meta"><span class="eyebrow">[CATEGORY]</span><span class="pill pill-progress">[STATUS]</span></div><h3>[Project title]</h3><p>[Briefly describe the problem, your contribution, and what you learned. Avoid claiming results you haven't measured.]</p><div class="project-tags"><span>[Technology]</span><span>[Technology]</span><span>[Role]</span></div><a class="text-link" href="#case-studies">View case study <span aria-hidden="true">↗</span></a></div>
+            </article>
+          </div>
+          <p class="section-footnote">These are editable project placeholders, not representations of completed work. Label each project as planned, in progress, or completed.</p>
+        </div>
+      </section>
+
+      <section class="section section-case-studies" id="case-studies" aria-labelledby="case-studies-title">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <div><p class="eyebrow">06 — PROCESS</p><h2 class="section-title" id="case-studies-title">Case studies</h2></div>
+            <p class="section-note">A closer look at the decisions, constraints, and learning behind selected work.</p>
+          </div>
+          <div class="case-study-list">
+            <article class="case-study" data-reveal><span class="case-index">01</span><div><h3>[Case study / project name]</h3><dl class="case-details"><div><dt>Challenge</dt><dd>[What problem were you exploring?]</dd></div><div><dt>Approach</dt><dd>[What did you do, and why?]</dd></div><div><dt>Learning / outcome</dt><dd>[What did you learn or verify?]</dd></div></dl></div><span class="case-status">[STATUS]</span></article>
+            <article class="case-study" data-reveal><span class="case-index">02</span><div><h3>[Case study / project name]</h3><dl class="case-details"><div><dt>Challenge</dt><dd>[What problem were you exploring?]</dd></div><div><dt>Approach</dt><dd>[What did you do, and why?]</dd></div><div><dt>Learning / outcome</dt><dd>[What did you learn or verify?]</dd></div></dl></div><span class="case-status">[STATUS]</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-experience" id="experience" aria-labelledby="experience-title">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <div><p class="eyebrow">07 — EXPERIENCE</p><h2 class="section-title" id="experience-title">Experience & training</h2></div>
+            <p class="section-note">Professional, academic, volunteer, or training experience.</p>
+          </div>
+          <article class="experience-entry" data-reveal>
+            <span class="experience-marker" aria-hidden="true"></span>
+            <div class="experience-content"><p class="eyebrow">[DATES / DURATION]</p><h3>[Role, training, or placement title]</h3><p class="muted">[Organization / institution] <span class="separator">·</span> [Location or remote]</p><p>[Add a factual summary of your responsibilities, activities, and skills practiced. If you have no relevant experience yet, replace this with a relevant coursework or independent-learning entry.]</p></div>
+            <span class="pill">[TYPE]</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-credentials" id="credentials" aria-labelledby="credentials-title">
+        <div class="container credentials-grid">
+          <div data-reveal><p class="eyebrow">08 — FURTHER STUDY</p><h2 class="section-title" id="credentials-title">Certifications<br>& courses</h2><p class="section-note">List completed credentials, and label any course still underway.</p></div>
+          <div class="credential-list" data-reveal>
+            <article class="credential-item"><span class="credential-icon" aria-hidden="true">↗</span><div><h3>[Certification or course name]</h3><p>[Provider] <span class="separator">·</span> [Year / status]</p></div><span class="credential-state">[STATUS]</span></article>
+            <article class="credential-item"><span class="credential-icon" aria-hidden="true">↗</span><div><h3>[Certification or course name]</h3><p>[Provider] <span class="separator">·</span> [Year / status]</p></div><span class="credential-state">[STATUS]</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-achievements" id="achievements" aria-labelledby="achievements-title">
+        <div class="container achievements-inner" data-reveal>
+          <div><p class="eyebrow">09 — RECOGNITION</p><h2 class="section-title" id="achievements-title">Achievements<br>& awards</h2></div>
+          <div class="achievement-placeholder"><p>[Add a verified academic achievement, award, competition result, or milestone. If none apply yet, replace this section with a goal you're working toward.]</p></div>
+        </div>
+      </section>
+
+      <section class="section section-resume" id="resume" aria-labelledby="resume-title">
+        <div class="container resume-panel" data-reveal>
+          <div><p class="eyebrow">10 — DOCUMENTS</p><h2 id="resume-title">Resume / CV</h2><p>PDF resume. Add your own file before sharing this portfolio.</p></div>
+          <div class="resume-actions"><a class="button button-primary" href="assets/resume/your-resume.pdf" download>Download PDF <span aria-hidden="true">↓</span></a><span>File path: <code>assets/resume/your-resume.pdf</code></span></div>
+        </div>
+      </section>
+
+      <section class="section section-profiles" id="profiles" aria-labelledby="profiles-title">
+        <div class="container profiles-inner" data-reveal>
+          <div><p class="eyebrow">11 — ELSEWHERE</p><h2 class="section-title" id="profiles-title">Professional profiles</h2></div>
+          <div class="profile-links">
+            <div class="profile-item"><span class="profile-mark" aria-hidden="true">GH</span><div><h3>GitHub</h3><p>[Add your GitHub username or profile URL]</p></div><span class="profile-arrow" aria-hidden="true">↗</span></div>
+            <div class="profile-item"><span class="profile-mark" aria-hidden="true">in</span><div><h3>LinkedIn</h3><p>[Add your LinkedIn profile URL]</p></div><span class="profile-arrow" aria-hidden="true">↗</span></div>
+            <div class="profile-item"><span class="profile-mark" aria-hidden="true">+</span><div><h3>[Other profile]</h3><p>[Add another relevant professional profile]</p></div><span class="profile-arrow" aria-hidden="true">↗</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-contact" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-panel" data-reveal>
+          <p class="eyebrow">12 — CONTACT</p>
+          <h2 id="contact-title">Get in <em>touch.</em></h2>
+          <p>For questions, collaboration, or professional opportunities, email me.</p>
+          <a class="button button-primary" href="mailto:your.email@example.com?subject=Portfolio%20inquiry">your.email@example.com <span aria-hidden="true">↗</span></a>
+          <p class="contact-note">Replace <code>your.email@example.com</code> with your own email address before sharing this site.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand" href="#home"><span>Your Name<span class="brand-dot">.</span></span></a>
+        <p>Software Engineering / Portfolio <span>© <span id="current-year">2026</span> [Your Name]</span></p>
+        <a class="back-to-top" href="#home">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+  </body>
+</html>
